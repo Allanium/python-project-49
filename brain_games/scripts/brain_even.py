@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 
-from brain_games.game import game
+from brain_games.game import some_game
 from brain_games.game_logic import even
 
 
