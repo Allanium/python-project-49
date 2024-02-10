@@ -6,7 +6,7 @@ def game(some_game):
     print('Welcome to the Brain Games!')
     name = string('May I have your name? ')
     print(f'Hello, {name}!')
-    print({some_game.DESCRIPTION})
+    print(f'{some_game.DESCRIPTION}')
     for i in range(ROUNDS):
         question, answer = some_game.get_round()
         print(f'Question: {question}')
