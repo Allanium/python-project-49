@@ -7,7 +7,7 @@ def game(some_game):
     name = string('May I have your name? ')
     print(f'Hello, {name}!')
     print({logic.DESCRIPTION})
-    from i in range(ROUNDS):
+    for i in range(ROUNDS):
         question, answer = logic.get_round()
         print(f'Question: {question}')
         user_answer = string('Your answer:  ')
