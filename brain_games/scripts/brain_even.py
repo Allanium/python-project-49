@@ -4,7 +4,7 @@ from brain_games.game import game
 from brain_games.game_logic import even
 
 
-def main()
+def main():
     game(even)
 
 
