@@ -1,11 +1,14 @@
-from brain_games import main
-from random import randint
+# !/usr/bin/env python
+
+from brain_games.game import game
+from brain_games.game_logic import even
 
 
-name = main()
-print('Answer "yes" if the number is even, otherwise answer "no".'
+def main()
+    game(even)
 
 
-def is_even(number):
+if __name__ == '__main__':
+    main()
     
         
