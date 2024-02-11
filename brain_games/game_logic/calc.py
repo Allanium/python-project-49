@@ -12,7 +12,7 @@ def get_round():
         '*' : num1 * num2
     }
         
-    random_key = choice(list(answers.keys()))
+    random_key = choice(list(answer.keys()))
     answer = str(answer[random_key])
     question = f'{num_1} {random_key} {num_2}'
 
