@@ -13,7 +13,7 @@ def get_round():
     }
         
     random_key = choice(list(answers.keys()))
-    answer = str(answers[random_key])
+    answer = str(answer[random_key])
     question = f'{num_1} {random_key} {num_2}'
 
     return question, answer
