@@ -6,6 +6,12 @@ def get_round():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
 
+    answer = {
+        '+' : num1 + num2,
+        '-' : num1 - num2,
+        '*' : num1 * num2
+    }
+        
     random_key = choice(list(answers.keys()))
     answer = str(answers[random_key])
     question = f'{num_1} {random_key} {num_2}'
