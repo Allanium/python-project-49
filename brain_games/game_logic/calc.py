@@ -14,6 +14,6 @@ def get_round():
         
     random_key = choice(list(answer.keys()))
     answer = str(answer[random_key])
-    question = f'{num_1} {random_key} {num_2}'
+    question = f'{num1} {random_key} {num2}'
 
     return question, answer
