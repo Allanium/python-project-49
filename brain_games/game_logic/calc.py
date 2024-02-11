@@ -1,4 +1,4 @@
-from random import choise, randint
+from random import choice, randint
 
 DESCRIPTION = 'What is the result of the expression?'
 
