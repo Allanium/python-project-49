@@ -2,6 +2,7 @@ from random import choice, randint
 
 DESCRIPTION = 'What is the result of the expression?'
 
+
 def get_round():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
