@@ -2,6 +2,7 @@ from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
 
+
 def get_round():
     start_progression = randint(1, 100)
     step = randint(2, 5)
@@ -16,6 +17,3 @@ def get_round():
         question += str(number) + ' '
     question = str(question.strip())
     return question, answer
-
-
-
