@@ -8,7 +8,7 @@ def get_round():
     num2 = randint(1, 100)
     operator = choice('+', '-', '*')
 
-    if operator == '+': 
+    if operator == '+':
         answer = num1 + num2
     elif operator == '-':
         answer = num1 - num2
