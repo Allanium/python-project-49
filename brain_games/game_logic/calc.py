@@ -8,14 +8,11 @@ def get_round():
     num2 = randint(1, 100)
     operator = ['+', '-', '*']
     random_operator = choice(operator)
-
-    if random_operator == '+':
-        answer = num1 + num2
-    elif random_operator == '-':
-        answer = num1 - num2
-    else:
-        answer = num1 * num2
-
     question = f'{num1} {random_operator} {num2}'
-
+    if random_operator == '+':
+        answer = str(num1 + num2)
+    elif random_operator == '-':
+        answer = str(num1 - num2)
+    else:
+        answer = str(num1 * num2)
     return question, answer
