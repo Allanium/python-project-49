@@ -2,6 +2,7 @@ from prompt import string
 
 ROUNDS = 3
 
+
 def game(some_game):
     print('Welcome to the Brain Games!')
     name = string('May I have your name? ')
