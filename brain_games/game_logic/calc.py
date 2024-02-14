@@ -8,9 +8,9 @@ def get_round():
     num2 = randint(1, 100)
 
     answer = {
-        '+' : num1 + num2,
-        '-' : num1 - num2,
-        '*' : num1 * num2
+        '+': num1 + num2,
+        '-': num1 - num2,
+        '*': num1 * num2
     }
         
     random_key = choice(list(answer.keys()))
