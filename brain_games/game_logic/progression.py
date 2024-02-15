@@ -9,7 +9,7 @@ def get_round():
     number_of_digits = randint(5, 10)
     end_progression = start_progression + step * number_of_digits
     progression = list(range(start_progression, end_progression, step))
-    random_number = randint(0, number_of_digits)
+    random_number = randint(0, number_of_digits - 1)
     answer = str(progression[random_number])
     progression[random_number] = '..'
     question = ''
