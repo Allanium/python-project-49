@@ -3,7 +3,7 @@ from prompt import string
 ROUND = 3
 
 
-def game(some_game):
+def run_game(some_game):
     print('Welcome to the Brain Games!')
     name = string('May I have your name? ')
     print(f'Hello, {name}!')
