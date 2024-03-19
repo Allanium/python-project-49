@@ -8,7 +8,7 @@ def game(some_game):
     name = string('May I have your name? ')
     print(f'Hello, {name}!')
     print(some_game.DESCRIPTION)
-    for i in range(ROUND):
+    for _ in range(ROUND):
         question, answer = some_game.get_round()
         print(f'Question: {question}')
         user_answer = string('Your answer:  ')
