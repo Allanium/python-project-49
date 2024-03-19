@@ -12,11 +12,12 @@ def game(some_game):
         question, answer = some_game.get_round()
         print(f'Question: {question}')
         user_answer = string('Your answer:  ')
-        if user_answer == answer:
-            print('Correct!')
-        else:
+        if user_answer != answer:
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{answer}'\n"
                   f"Let's try again, {name}!")
+            print('Correct!')
+        else:
+            print('Correct!')
             return
     print(f'Congratulations, {name}!')
